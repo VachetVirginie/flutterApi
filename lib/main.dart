@@ -55,7 +55,22 @@ class HomePageState extends State<HomePage> {
                   children: <Widget>[
                     new Card(
                       child: new Container(
-                        child: new Text(data[index]['name'].toString()),
+                        child: new Text(data[index]['name'].toString(),
+                        ),
+                        padding: const EdgeInsets.all(20.0),
+                      ),
+                    ),
+                    new Card(
+                      child: new Container(
+                        child: new Text(data[index]['status'].toString(),
+                        ),
+                        padding: const EdgeInsets.all(20.0),
+                      ),
+                    ),
+                    new Card(
+                      child: new Container(
+                        child: new Text(data[index]['field']['name'].toString(),
+                        ),
                         padding: const EdgeInsets.all(20.0),
                       ),
                     )
