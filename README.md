@@ -1,6 +1,6 @@
 # api_test
 
-A new Flutter project.
+A new Flutter project to test calls on the API.
 
 ## Getting Started
 
